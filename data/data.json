@@ -1,0 +1,250 @@
+[
+    {
+        "id": 1,
+        "gameTitle": "Assassin's Creed",
+        "genre": ["Action","Role-play"],
+        "description": "",
+        "platform":["PC"],
+        "image": "url()"
+    },
+    {
+        "id": 2,
+        "gameTitle": "Assassin's Creed II",
+        "genre": ["Action","Role-play", "Open World"],
+        "description": "",
+        "platform":["PC"],
+        "image": "url()"
+    },
+    {
+        "id": 3,
+        "gameTitle": "Assassin's Creed III",
+        "genre": ["Action","Role-play", "Open World"],
+        "description": "",
+        "platform":["PC", "PS3"],
+        "image": "url()"
+    },
+    {
+        "id": 4,
+        "gameTitle": "Assassin's Creed Brotherhood",
+        "genre": ["Action","Role-play", "Open World"],
+        "description": "",
+        "platform":["PC", "PS3"],
+        "image": "url()"
+    },
+    {
+        "id": 5,
+        "gameTitle": "Assassin's Creed Rogue",
+        "genre": ["Action","Role-play", "Open World"],
+        "description": "",
+        "platform":["PC", "PS3"],
+        "image": "url()"
+    },
+    {
+        "id": 6,
+        "gameTitle": "Assassin's Creed IV: Black Flag",
+        "genre": ["Action","Role-play", "Open World"],
+        "description": "",
+        "platform":["PC", "PS3"],
+        "image": "url()"
+    },
+    {
+        "id": 7,
+        "gameTitle": "Metal Gear Solid V: The Phantom Pain",
+        "genre": ["Action","Role-play", "Open World"],
+        "description": "",
+        "platform":["PC", "PS3", "PS4"],
+        "image": "url()"
+    },
+    {
+        "id": 8,
+        "gameTitle": "Portal 2",
+        "genre": ["Puzzle","Role-play"],
+        "description": "",
+        "platform":["PC", "Mac", "PS3"],
+        "image": "url()"
+    },
+    {
+        "id": 9,
+        "gameTitle": "Madden NFL 2003",
+        "genre": ["Sports"],
+        "description": "",
+        "platform":["PC", "Mac", "PS3"],
+        "image": "url()"
+    },
+    {
+        "id": 10,
+        "gameTitle": "The Last of Us",
+        "genre": ["Action", "Horror","Role-play"],
+        "description": "",
+        "platform":["PC", "PS3", "PS4"],
+        "image": "url()"
+    },
+    {
+        "id": 11,
+        "gameTitle": "Halo 2",
+        "genre": ["Action", "Role-play"],
+        "description": "",
+        "platform":["PC"],
+        "image": "url()"
+    },
+    {
+        "id": 12,
+        "gameTitle": "Red Dead Redemption",
+        "genre": ["Action", "Role-play", "Open World"],
+        "description": "",
+        "platform":["PC", "PS4"],
+        "image": "url()"
+    },
+    {
+        "id": 13,
+        "gameTitle": "Grand Theft Auto: San Andreas",
+        "genre": ["Action", "Role-play", "Open World"],
+        "description": "",
+        "platform":["PC", "PS3"],
+        "image": "url()"
+    },
+    {
+        "id": 14,
+        "gameTitle": "The Elder Scrolls V: Skyrim",
+        "genre": [""],
+        "description": "",
+        "platform":["PC", "PS3"],
+        "image": "url()"
+    },
+    {
+        "id": 15,
+        "gameTitle": "Mass Effect 2",
+        "genre": ["Action", "Role-play"],
+        "description": "",
+        "platform":["PC", "PS3"],
+        "image": "url()"
+    },
+    {
+        "id": 16,
+        "gameTitle": "Batman: Arkham City",
+        "genre": ["Action","Role-play","Open World"],
+        "description": "",
+        "platform":["PC", "PS3"],
+        "image": "url()"
+    },
+    {
+        "id": 17,
+        "gameTitle": "Elden Ring",
+        "genre": ["Action", "Role-play", "Open World", "Online-multiplayer"],
+        "description": "",
+        "platform":["PC", "PS4"],
+        "image": "url()"
+    },
+    {
+        "id": 18,
+        "gameTitle": "Grand Theft Auto V",
+        "genre": ["Action", "Role-play", "Open World"],
+        "description": "",
+        "platform":["PC", "PS3", "PS4"],
+        "image": "url()"
+    },
+    {
+        "id": 19,
+        "gameTitle": "Red Dead Redemption 2",
+        "genre": ["Action", "Role-play", "Open World"],
+        "description": "",
+        "platform":["PC", "PS4"],
+        "image": "url()"
+    },
+    {
+        "id": 20,
+        "gameTitle": "Borderlands",
+        "genre": ["Action", "Role-play", "Open World", "FPS"],
+        "description": "",
+        "platform":["PC"],
+        "image": "url()"
+    },
+    {
+        "id": 21,
+        "gameTitle": "Borderlands 2",
+        "genre": ["Action", "Role-play", "Open World", "FPS"],
+        "description": "",
+        "platform":["PC", "PS3"],
+        "image": "url()"
+    },
+    {
+        "id": 22,
+        "gameTitle": "Borderlands 3",
+        "genre": ["Action", "Role-play", "Open World", "FPS"],
+        "description": "",
+        "platform":["PC", "PS4"],
+        "image": "url()"
+    },
+    {
+        "id": 23,
+        "gameTitle": "Call Of Duty",
+        "genre": ["Action","Role-play","FPS"],
+        "description": "",
+        "platform":["PC"],
+        "image": "url()"
+    },
+    {
+        "id": 24,
+        "gameTitle": "Call Of Duty 2",
+        "genre": ["Action", "Role-play", "FPS"],
+        "description": "",
+        "platform":["PC"],
+        "image": "url()"
+    },
+    {
+        "id": 25,
+        "gameTitle": "Call Of Duty: Black Ops",
+        "genre": ["Action","Role-play","FPS"],
+        "description": "",
+        "platform":["PC", "PS3"],
+        "image": "url()"
+    },
+    {
+        "id": 26,
+        "gameTitle": "Call Of Duty: Black Ops 2",
+        "genre": ["Action","Role-play","Open World"],
+        "description": "",
+        "platform":["PC", "PS3","PS4"],
+        "image": "url()"
+    },
+    {
+        "id": 27,
+        "gameTitle": "Call Of Duty: Black Ops 3",
+        "genre": ["Action","Role-play","FPS"],
+        "description": "",
+        "platform":["PC", "PS4"],
+        "image": "url()"
+    },
+    {
+        "id": 28,
+        "gameTitle": "The ELder Scrolls IV: Oblivion",
+        "genre": ["Action", "Adventure","Role-play","Open World"],
+        "description": "",
+        "platform":["PC"],
+        "image": "url()"
+    },
+    {
+        "id": 29,
+        "gameTitle": "The Elder Scrolls III: Morrow Wind",
+        "genre": ["Action","Adventure","Role-play","Open World"],
+        "description": "",
+        "platform":["PC"],
+        "image": "url()"
+    },
+    {
+        "id": 30,
+        "gameTitle": "The Witcher 3: Wild Hunt",
+        "genre": ["Action", "Adventure","Role-play","Open World"],
+        "description": "",
+        "platform":["PC"],
+        "image": "url()"
+    },
+    {
+        "id": 31,
+        "gameTitle": "Grand Theft Auto: Vice City",
+        "genre": ["Action", "Role-play", "Open World"],
+        "description": "",
+        "platform":["PC", "PS3"],
+        "image": "url()"
+    }
+]
