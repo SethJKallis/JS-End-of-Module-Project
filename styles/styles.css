@@ -23,6 +23,7 @@ a:visited{
     text-decoration: none;
     color: var(--DARKCOLOR);
     font-weight: 900;
+    transition: all 0.5s ease 0s;
 }
 
 a:hover,
@@ -30,18 +31,33 @@ a:active{
     color: rgb(48, 47, 47);
 }
 
+img{
+    display: block;
+}
+
 /* END OF RESETS */
 
 body{
     position: relative;
     text-align: center;
-    background-image: linear-gradient(lightgrey, darkgrey);
+    background-image: linear-gradient(lightgrey, papayawhip);
+    background-size: cover;
+    background-repeat: no-repeat;
     font-family: var(--FF);
+    font-size: 1.25rem;
 }
 
 header{
     position: sticky;
     top: 0;
+}
+
+.landing-section,
+.contact-form-section{
+    background-image: linear-gradient(lightgrey, papayawhip);
+}
+.contact-info-section{
+    background-image: linear-gradient(papayawhip, lightgrey);
 }
 
 
@@ -73,13 +89,10 @@ header{
     scale: 1.1;
 }
 
-
 .landing-container{
     /* border: 2px solid green; */
     display: flex;
     flex-flow: column nowrap;
     justify-content: center;
     align-items: center;
-    margin-top: 1em;
 }
-
