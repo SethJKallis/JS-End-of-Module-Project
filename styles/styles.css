@@ -32,14 +32,23 @@ body{
     font-family: var(--FF);
 }
 
-header{
-    border: 2px solid red;
-    display: grid;
-    grid-template-rows: 1fr;
-    grid-template-columns: repeat(2,1fr);
-    position: fixed;
-    width: 100%;
-}
+/* MENU STYLES */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 .menu-container{
     border: 2px solid blue;
