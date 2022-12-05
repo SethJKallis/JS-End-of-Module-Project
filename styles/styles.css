@@ -96,3 +96,10 @@ header{
     justify-content: center;
     align-items: center;
 }
+
+.filter-container .dropdown .dropdown-menu li{
+    text-align: center;
+    background-color: darkgrey;
+    padding: 0;
+    margin: 0;
+}
