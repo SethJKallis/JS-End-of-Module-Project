@@ -22,55 +22,64 @@ a,
 a:visited{
     text-decoration: none;
     color: var(--DARKCOLOR);
+    font-weight: 900;
+}
+
+a:hover,
+a:active{
+    color: rgb(48, 47, 47);
 }
 
 /* END OF RESETS */
 
 body{
+    position: relative;
     text-align: center;
-    background-color: papayawhip;
+    background-image: linear-gradient(lightgrey, darkgrey);
     font-family: var(--FF);
 }
 
+header{
+    position: sticky;
+    top: 0;
+}
+
+
+
 /* MENU STYLES */
+.navbar{
+    /* border: 2px solid red; */
+    background-color: transparent;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-.menu-container{
-    border: 2px solid blue;
+.nav-item{
+    /* border: 2px solid blue; */
     display: flex;
     justify-content: start;
-    align-items: center;
+    width: 100%;
+    margin: 0;
 }
 
-.logo-container{
-    border: 2px solid blue;
-    display: flex;
-    justify-content: end;
-    align-items: center;
+.nav-item .nav-link{
+    color: var(--DARKCOLOR);
+    font-weight: bold;
+    transition: all 0.5s ease 0s;
 }
+
+.nav-item .nav-link:hover,
+.nav-item .nav-link:active{
+    color: rgb(48, 47, 47);
+    font-weight: bolder;
+    scale: 1.1;
+}
+
 
 .landing-container{
-    border: 2px solid green;
-    width: 100vw;
-    height: 100vh;
+    /* border: 2px solid green; */
     display: flex;
     flex-flow: column nowrap;
     justify-content: center;
     align-items: center;
+    margin-top: 1em;
 }
 
