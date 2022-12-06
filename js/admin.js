@@ -3,10 +3,8 @@ fetch('../data/data.json')
     return response.json()
 })
 .then((data) => {
-    // console.log(data)
     let tableContent = document.querySelector('tbody');
     Object.keys(data).forEach((item) => {
-        // console.log(data[item])
         if(data[item]){
             tableContent.innerHTML += 
             `
