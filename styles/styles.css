@@ -155,3 +155,9 @@ figure{
     height: 400px;
     margin-bottom: 5rem;
 }
+
+.modal-title{
+    margin: 0 auto;
+    font-weight: bold;
+    font-size: 2rem;
+}
