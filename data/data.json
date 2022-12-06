@@ -1,281 +1,312 @@
 [
     {
         "id": 1,
+        "stingId": "assasinsCreed",
         "gameTitle": "Assassin's Creed",
         "genre": ["Action","Role-play"],
         "description": "",
         "platform":["PC"],
-        "image": "url()",
-        "price":
+        "image": "https://i.postimg.cc/Y9Jm3Mmm/Assassin-s-Creed.jpg",
+        "price": 50
     },
     {
         "id": 2,
+        "stringId": "assassinsCreedTwo",
         "gameTitle": "Assassin's Creed II",
         "genre": ["Action","Role-play", "Open World"],
         "description": "",
         "platform":["PC"],
-        "image": "url()",
-        "price":
+        "image": "https://i.postimg.cc/Vk5LfNPm/AC-2.jpg",
+        "price": 75
     },
     {
         "id": 3,
+        "stringId": "assasinsCreedThree",
         "gameTitle": "Assassin's Creed III",
         "genre": ["Action","Role-play", "Open World"],
         "description": "",
         "platform":["PC", "PS3"],
-        "image": "url()",
-        "price":
+        "image": "https://i.postimg.cc/3xVB65pY/Assassin-s-Creed-III-Game-Cover.jpg",
+        "price": 100
     },
     {
         "id": 4,
-        "gameTitle": "Assassin's Creed Brotherhood",
+        "stringId": "acBrotherhood",
+        "gameTitle": "AC Brotherhood",
         "genre": ["Action","Role-play", "Open World"],
         "description": "",
         "platform":["PC", "PS3"],
-        "image": "url()",
-        "price":
+        "image": "https://i.postimg.cc/qMc4qjmc/AC-Brother-Hood.webp",
+        "price": 50
     },
     {
         "id": 5,
+        "stringId": "assassinsCreedRogue",
         "gameTitle": "Assassin's Creed Rogue",
         "genre": ["Action","Role-play", "Open World"],
         "description": "",
         "platform":["PC", "PS3"],
-        "image": "url()",
-        "price":
+        "image": "https://i.postimg.cc/K8Sjs0zC/Assassin-s-Creed-Rogue.jpg",
+        "price": 100
     },
     {
         "id": 6,
-        "gameTitle": "Assassin's Creed IV: Black Flag",
+        "stringId": "acBlackFlag",
+        "gameTitle": "AC IV: Black Flag",
         "genre": ["Action","Role-play", "Open World"],
         "description": "",
         "platform":["PC", "PS3"],
-        "image": "url()",
-        "price":
+        "image": "https://i.postimg.cc/jStwS8bP/Assassin-s-Creed-IV-Black-Flag-cover.jpg",
+        "price": 120
     },
     {
         "id": 7,
-        "gameTitle": "Metal Gear Solid V: The Phantom Pain",
+        "stringId": "metalGearSolidFive",
+        "gameTitle": "Metal Gear Solid V",
         "genre": ["Action","Role-play", "Open World"],
         "description": "",
         "platform":["PC", "PS3", "PS4"],
-        "image": "url()",
-        "price":
+        "image": "https://i.postimg.cc/RZkYtng7/Metal-Gear-Solid-V-The-Phantom-Pain-cover.png",
+        "price": 100
     },
     {
         "id": 8,
+        "stringId": "portalTwo",
         "gameTitle": "Portal 2",
         "genre": ["Puzzle","Role-play"],
         "description": "",
         "platform":["PC", "Mac", "PS3"],
-        "image": "url()",
-        "price":
+        "image": "https://i.postimg.cc/ht6QLVQt/Portal2cover.jpg",
+        "price": 75
     },
     {
         "id": 9,
+        "stringId": "maddenNFLThree",
         "gameTitle": "Madden NFL 2003",
         "genre": ["Sports"],
         "description": "",
         "platform":["PC", "Mac", "PS3"],
-        "image": "url()",
-        "price":
+        "image": "https://i.postimg.cc/05XkKPw8/madden03.png",
+        "price": 50
     },
     {
         "id": 10,
+        "stringId": "lastOfUs",
         "gameTitle": "The Last of Us",
         "genre": ["Action", "Horror","Role-play"],
         "description": "",
         "platform":["PC", "PS3", "PS4"],
-        "image": "url()",
-        "price":
+        "image": "https://i.postimg.cc/ryjJSYVy/The-Last-of-Us.jpg",
+        "price": 100
     },
     {
         "id": 11,
+        "stringId": "haloTwo",
         "gameTitle": "Halo 2",
         "genre": ["Action", "Role-play"],
         "description": "",
         "platform":["PC"],
-        "image": "url()",
-        "price":
+        "image": "https://i.postimg.cc/zBsVWNy2/halo-2.jpg",
+        "price": 50
     },
     {
         "id": 12,
+        "stringId": "redDeadRedemption",
         "gameTitle": "Red Dead Redemption",
         "genre": ["Action", "Role-play", "Open World"],
         "description": "",
         "platform":["PC", "PS4"],
-        "image": "url()",
-        "price":
+        "image": "https://i.postimg.cc/nV1JqZ9s/Red-Dead-Redemption.jpg",
+        "price": 120
     },
     {
         "id": 13,
-        "gameTitle": "Grand Theft Auto: San Andreas",
+        "stringId": "gtaSanAndreas",
+        "gameTitle": "GTA: San Andreas",
         "genre": ["Action", "Role-play", "Open World"],
         "description": "",
         "platform":["PC", "PS3"],
-        "image": "url()",
-        "price":
+        "image": "https://i.postimg.cc/Mpw582pS/GTASA.jpg",
+        "price": 50
     },
     {
         "id": 14,
-        "gameTitle": "The Elder Scrolls V: Skyrim",
+        "stringId": "skyrim",
+        "gameTitle": "Skyrim",
         "genre": [""],
         "description": "",
         "platform":["PC", "PS3"],
-        "image": "url()",
-        "price":
+        "image": "https://i.postimg.cc/vZ8nzQmc/The-Elder-Scrolls-V-Skyrim-cover.png",
+        "price": 150
     },
     {
         "id": 15,
+        "stringId": "massEffectTwo",
         "gameTitle": "Mass Effect 2",
         "genre": ["Action", "Role-play"],
         "description": "",
         "platform":["PC", "PS3"],
-        "image": "url()",
-        "price":
+        "image": "https://i.postimg.cc/1XTdKWGz/Mass-Effect2-cover.png",
+        "price": 75
     },
     {
         "id": 16,
+        "stringId": "batmanArkhamCity",
         "gameTitle": "Batman: Arkham City",
         "genre": ["Action","Role-play","Open World"],
         "description": "",
         "platform":["PC", "PS3"],
-        "image": "url()",
-        "price":
+        "image": "https://i.postimg.cc/1X2q56QT/Batman-Arkham-City-Game-Cover.jpg",
+        "price": 50
     },
     {
         "id": 17,
+        "stringId": "eldenRing",
         "gameTitle": "Elden Ring",
         "genre": ["Action", "Role-play", "Open World", "Online-multiplayer"],
         "description": "",
         "platform":["PC", "PS4"],
-        "image": "url()",
-        "price":
+        "image": "https://i.postimg.cc/d1Kw2jRv/elden-ring.webp",
+        "price": 200
     },
     {
         "id": 18,
+        "stringId": "gtaFive",
         "gameTitle": "Grand Theft Auto V",
         "genre": ["Action", "Role-play", "Open World"],
         "description": "",
         "platform":["PC", "PS3", "PS4"],
-        "image": "url()",
-        "price":
+        "image": "https://i.postimg.cc/YSjBQyLJ/Grand-Theft-Auto-V.png",
+        "price": 175
     },
     {
         "id": 19,
+        "stringId": "redDeadRedemptionTwo",
         "gameTitle": "Red Dead Redemption 2",
         "genre": ["Action", "Role-play", "Open World"],
         "description": "",
         "platform":["PC", "PS4"],
-        "image": "url()",
-        "price":
+        "image": "https://i.postimg.cc/wj9Mp0KP/Red-Dead-Redemption-II.jpg",
+        "price": 175
     },
     {
         "id": 20,
+        "stringId": "borderlands",
         "gameTitle": "Borderlands",
         "genre": ["Action", "Role-play", "Open World", "FPS"],
         "description": "",
         "platform":["PC"],
-        "image": "url()",
-        "price":
+        "image": "https://i.postimg.cc/rpcXPFb2/Borderlandscover.jpg",
+        "price": 50
     },
     {
         "id": 21,
+        "stringId": "borderlandsTwo",
         "gameTitle": "Borderlands 2",
         "genre": ["Action", "Role-play", "Open World", "FPS"],
         "description": "",
         "platform":["PC", "PS3"],
-        "image": "url()",
-        "price":
+        "image": "https://i.postimg.cc/pTHfj3pZ/Borderlands-2-cover-art.png",
+        "price": 75
     },
     {
         "id": 22,
+        "stringId": "borderlandsThree",
         "gameTitle": "Borderlands 3",
         "genre": ["Action", "Role-play", "Open World", "FPS"],
         "description": "",
         "platform":["PC", "PS4"],
-        "image": "url()",
-        "price":
+        "image": "https://i.postimg.cc/3NpWZxV0/Borderlands-3-cover-art.jpg",
+        "price": 100
     },
     {
         "id": 23,
+        "stringId": "callOfDuty",
         "gameTitle": "Call Of Duty",
         "genre": ["Action","Role-play","FPS"],
         "description": "",
         "platform":["PC"],
-        "image": "url()",
-        "price":
+        "image": "https://i.postimg.cc/W4y5FsZJ/Call-of-Duty-2003-cover.jpg",
+        "price": 50
     },
     {
         "id": 24,
+        "stringId": "callOfDutyTwo",
         "gameTitle": "Call Of Duty 2",
         "genre": ["Action", "Role-play", "FPS"],
         "description": "",
         "platform":["PC"],
-        "image": "url()",
-        "price":
+        "image": "https://i.postimg.cc/yxj9RTGr/Call-of-Duty-2-Box.jpg",
+        "price": 75
     },
     {
         "id": 25,
-        "gameTitle": "Call Of Duty: Black Ops",
+        "stringId": "codBlackOps",
+        "gameTitle": "COD: Black Ops",
         "genre": ["Action","Role-play","FPS"],
         "description": "",
         "platform":["PC", "PS3"],
-        "image": "url()",
-        "price":
+        "image": "https://i.postimg.cc/52Cyd33d/Co-D-Black-Ops-cover.png",
+        "price": 75
     },
     {
         "id": 26,
-        "gameTitle": "Call Of Duty: Black Ops 2",
+        "stringId": "codBlackOpsTwo",
+        "gameTitle": "COD: Black Ops 2",
         "genre": ["Action","Role-play","Open World"],
         "description": "",
         "platform":["PC", "PS3","PS4"],
-        "image": "url()",
-        "price":
+        "image": "https://i.postimg.cc/L5kd3JkW/Call-of-Duty-Black-Ops-II-box-artwork.png",
+        "price": 75
     },
     {
         "id": 27,
-        "gameTitle": "Call Of Duty: Black Ops 3",
+        "stringId": "codBlackOpsThree",
+        "gameTitle": "COD: Black Ops 3",
         "genre": ["Action","Role-play","FPS"],
         "description": "",
         "platform":["PC", "PS4"],
-        "image": "url()",
-        "price":
+        "image": "https://i.postimg.cc/dVLHq7kK/Black-Ops-3.jpg",
+        "price": 100
     },
     {
         "id": 28,
-        "gameTitle": "The ELder Scrolls IV: Oblivion",
+        "stringId": "oblivion",
+        "gameTitle": "Oblivion",
         "genre": ["Action", "Adventure","Role-play","Open World"],
         "description": "",
         "platform":["PC"],
-        "image": "url()",
-        "price":
+        "image": "https://i.postimg.cc/5y50QNX4/oblivion.jpg",
+        "price": 50
     },
     {
         "id": 29,
-        "gameTitle": "The Elder Scrolls III: Morrow Wind",
+        "stringId": "morrowind",
+        "gameTitle": "Morrowind",
         "genre": ["Action","Adventure","Role-play","Open World"],
         "description": "",
         "platform":["PC"],
-        "image": "url()",
-        "price":
+        "image": "https://i.postimg.cc/XYYJXW4W/Morrowind-COVER.jpg",
+        "price": 50
     },
     {
         "id": 30,
+        "stringId": "witcherThree",
         "gameTitle": "The Witcher 3: Wild Hunt",
         "genre": ["Action", "Adventure","Role-play","Open World"],
         "description": "",
         "platform":["PC"],
-        "image": "url()",
-        "price":
+        "image": "https://i.postimg.cc/JhdKSR4z/kh4-MUIu-Mm-Hlkt-OHar3l-Vl6r-Y.jpg",
+        "price": 100
     },
     {
         "id": 31,
+        "stringId": "gtaViceCity",
         "gameTitle": "Grand Theft Auto: Vice City",
         "genre": ["Action", "Role-play", "Open World"],
         "description": "",
         "platform":["PC", "PS3"],
-        "image": "url()",
-        "price":
+        "image": "https://i.postimg.cc/brf0jrXp/Vice-city-cover.jpg",
+        "price": 50
     }
 ]
