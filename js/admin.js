@@ -124,3 +124,23 @@ let displayTableContent = () => {
           }
         })
 })
+
+let newItemCreated = (id,gameTitle,price,image) => {
+  this.id = id
+  this.gameTitle = gameTitle;
+  this.price = price;
+  this.image = image
+}
+
+let addProduct = document.querySelector('#createBtn');
+let newGameTitle = document.querySelector('#createTitleInput');
+let newGamePrice = document.querySelector('#createPriceInput');
+let newGameImage = document.querySelector('#createImageInput')
+
+
+
+
+addProduct.addEventListener('click', (e) => {
+  console.log('clicked');
+  
+})
