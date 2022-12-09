@@ -10,7 +10,7 @@ Object.keys(checkoutProducts).forEach((item) => {
         <tr>
             <td>${checkoutProducts[item].gameTitle}</td>
             <td>1</td>
-            <td>${checkoutProducts[item].price}</td>
+            <td>R${checkoutProducts[item].price}</td>
             <td><button class="btn btn-danger">Remove</button></td>
         </tr>
         `

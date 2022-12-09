@@ -1,11 +1,3 @@
-// fetch('../data/data.json')
-// .then((response) => {
-//     return response.json()
-// })
-// .then((data) => {
-//     localStorage.setItem('myDataStore', JSON.stringify(data));
-// })
-
 let tableContent = document.querySelector('tbody');
 let myData = JSON.parse(localStorage.getItem('myDataStore'));
 
@@ -61,7 +53,7 @@ let displayTableContent = () => {
     }
     displayTableContent()
 
-     console.log(myData)
+    console.log(myData)
     
     let edit = document.querySelectorAll('#saveChange');
     let gameTitleDisplay = document.querySelectorAll('#gameTitleDisplay')
@@ -73,8 +65,6 @@ let displayTableContent = () => {
             let gameTitleInput = [...document.querySelectorAll(`#gameTitle`)];
             let gamePriceInput = [...document.querySelectorAll('#gamePriceInp')];
             let gameImageUrlInput = [...document.querySelectorAll('#gameImageUrlInput')]
-            console.log(gameImageUrlInput[item].value);
-            console.log(myData[item]);
 
           if(gamePriceInput[item].value == '' || gamePriceInput.value == '' || gameImageUrlInput == ''){
             alert('Please fill in every... last... detail...')
@@ -99,25 +89,14 @@ let displayTableContent = () => {
     })
 
     let del = document.querySelectorAll('.btn-danger');
-    // console.log(del) 
     Object.keys(del).forEach((item) => {
         del[item].addEventListener('click', (e) => {
-          console.log(del[item].id)
-          console.log(del[item])
-          console.log(myData[item].id)
-          console.log(myData[item])
           let index = item
-
+          console.log(item)
           if(del[item].id == myData[item].id){
-            console.log(myData[item])
-            // trItemDisplay[item].innerHTML = ''
-            myData.splice(index, 1)
-            console.log(myData)
-
+            // myData.splice(index, 1)
             localStorage.setItem('myDataStore' ,JSON.stringify(myData))
-            myData = JSON.parse(localStorage.getItem('myDataStore'))
-            // displayTableContent()
-            location.reload()
+            // location.reload()
           }
           else{
             return alert('Not Found')
@@ -125,22 +104,29 @@ let displayTableContent = () => {
         })
 })
 
-let newItemCreated = (id,gameTitle,price,image) => {
+let newItemCreated = function(id,gameTitle,price,image){
   this.id = id
   this.gameTitle = gameTitle;
   this.price = price;
   this.image = image
 }
 
+
 let addProduct = document.querySelector('#createBtn');
-let newGameTitle = document.querySelector('#createTitleInput');
-let newGamePrice = document.querySelector('#createPriceInput');
-let newGameImage = document.querySelector('#createImageInput')
-
-
-
 
 addProduct.addEventListener('click', (e) => {
+  let newGameTitle = document.querySelector('#createTitleInput');
+  let newGamePrice = document.querySelector('#createPriceInput');
+  let newGameImage = document.querySelector('#createImageInput')
   console.log('clicked');
-  
+
+  if(newGameTitle.value == '' || newGamePrice == '' || newGameImage == ''){
+    return alert('Please fill in every input to proceed...')
+  }
+  else{
+    myData.push({...new newItemCreated((myData[myData.length-1].id + 1), newGameTitle.value, newGamePrice.value, newGameImage.value)});
+    console.log(myData);
+    localStorage.setItem('myDataStore', JSON.stringify(myData));
+    location.reload()
+  }
 })
