@@ -1,87 +1,151 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!-- CSS only -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65"
+      crossorigin="anonymous"
+    />
     <!-- JavaScript Bundle with Popper -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous" defer></script>
-    <link rel="stylesheet" href="../styles/styles.css">
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+      crossorigin="anonymous"
+      defer
+    ></script>
+    <link rel="stylesheet" href="../styles/styles.css" />
     <title>Admin Page</title>
-</head>
-<body>
+  </head>
+  <body>
     <header class="container-fluid">
-        <!--NAVIGATION BAR-->
-        <nav class="navbar">  
-           <div class="container-fluid">
-             
-             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-               <span class="navbar-toggler-icon"></span>
-             </button>
+      <!--NAVIGATION BAR-->
+      <nav class="navbar">
+        <div class="container-fluid">
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
 
-             <div class="collapse navbar-collapse" id="navbarSupportedContent">
-               <ul class="navbar-nav d-flex">
-                 <li class="nav-item">
-                     <a class="nav-link" href="../index.html">Home</a>
-                 </li>
-                   <li class="nav-item">
-                       <a class="nav-link active" href="./products.html">Products</a>
-                   </li>
-                   <li class="nav-item">
-                     <a class="nav-link" href="./checkout.html">Checkout</a>
-                   </li>
-               </ul>
-             </div>
-           </div>
-         </nav>
-   </header>
-   <main class="container-fluid">
-    <h1 class="display-3 fw-bold">Admin</h1>
-    <section class="data-container container-fluid">
-   
-      <table class="table table-success table-hover w-100">
-        <thead>
-          <th>#ID</th>
-          <th>Product Name</th>
-          <th>Price</th>
-          <th>Edit&Delete</th>
-        </thead>
-        <tbody>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav d-flex">
+              <li class="nav-item">
+                <a class="nav-link" href="../index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="./products.html">Products</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./checkout.html">Checkout</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main class="container-fluid">
+      <h1 class="display-3 fw-bold">Admin</h1>
+      <section class="data-container container-fluid">
+        <table class="table table-success table-hover w-100">
+          <thead>
+            <th>#ID</th>
+            <th>Product Name</th>
+            <th>Price</th>
+            <th>Edit&Delete</th>
+          </thead>
+          <tbody></tbody>
+        </table>
 
-        </tbody>
-      </table>
+        <!-- Button trigger modal -->
+        <button
+          type="button"
+          class="btn btn-primary"
+          data-bs-toggle="modal"
+          data-bs-target="#createModal"
+        >
+          Add Item
+        </button>
 
-<!-- Button trigger modal -->
-<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#createModal">
-  Add Item
-</button>
-
-<!-- Modal -->
-<div class="modal fade" id="createModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-  <div class="modal-dialog">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h1 class="modal-title fs-5" id="exampleModalLabel">Add Product</h1>
-      </div>
-      <div class="modal-body">
-        <input type="number" class="form-control text-center" name="id" id="idInput" placeholder="Auto-Assigned ID" disabled>
-        <input type="text" class="form-control text-center" name="gameTitle" id="createTitleInput" placeholder="Game Title">
-        <input type="number" class="form-control text-center" name="price" id="createPriceInput" placeholder="Game Price">
-        <input type="text" class="form-control text-center" name="image" id="createImageInput" placeholder="Game Image Url">
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-        <button id="createBtn" type="button" class="btn btn-primary" data-bs-dismiss="modal">Save changes</button>
-      </div>
-    </div>
-  </div>
-</div>
-      <hr>
-    </section>
-   </main>
-   <script src="../js/admin.js"></script>
-</body>
+        <!-- Modal -->
+        <div
+          class="modal fade"
+          id="createModal"
+          tabindex="-1"
+          aria-labelledby="exampleModalLabel"
+          aria-hidden="true"
+        >
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h1 class="modal-title fs-5" id="exampleModalLabel">
+                  Add Product
+                </h1>
+              </div>
+              <div class="modal-body">
+                <input
+                  type="number"
+                  class="form-control text-center"
+                  name="id"
+                  id="idInput"
+                  placeholder="Auto-Assigned ID"
+                  disabled
+                />
+                <input
+                  type="text"
+                  class="form-control text-center"
+                  name="gameTitle"
+                  id="createTitleInput"
+                  placeholder="Game Title"
+                />
+                <input
+                  type="number"
+                  class="form-control text-center"
+                  name="price"
+                  id="createPriceInput"
+                  placeholder="Game Price"
+                />
+                <input
+                  type="text"
+                  class="form-control text-center"
+                  name="image"
+                  id="createImageInput"
+                  placeholder="Game Image Url"
+                />
+              </div>
+              <div class="modal-footer">
+                <button
+                  type="button"
+                  class="btn btn-secondary"
+                  data-bs-dismiss="modal"
+                >
+                  Close
+                </button>
+                <button
+                  id="createBtn"
+                  type="button"
+                  class="btn btn-primary"
+                  data-bs-dismiss="modal"
+                >
+                  Save changes
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <hr />
+      </section>
+    </main>
+    <script src="../js/admin.js"></script>
+  </body>
 </html>
-
