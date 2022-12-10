@@ -173,3 +173,7 @@ figure{
 .checkout-container{
     min-height: 100vh;
 }
+
+.table-container{
+    width: 100%;
+}

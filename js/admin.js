@@ -2,7 +2,7 @@ let tableContent = document.querySelector('tbody');
 let myData = JSON.parse(localStorage.getItem('myDataStore'));
 
 let displayTableContent = () => {
-  tableContent.innerHTML = ' '
+  tableContent.innerHTML = ''
   Object.keys(myData).forEach((item) => {
     if(myData[item]){
           tableContent.innerHTML += 
@@ -44,8 +44,9 @@ let displayTableContent = () => {
                     </div>
                   </div>
                 </div>
-              </div></td>
-              <td><button id="${myData[item].id}" class="btn btn-danger deletebtn">Del</button></td>
+              </div>
+              <button id="${myData[item].id}" class="btn btn-danger deletebtn">Del</button></td>
+              </td>
           </tr>
           `;
         }
@@ -60,7 +61,7 @@ let displayTableContent = () => {
     let gamePriceDisplay = document.querySelectorAll('#gamePriceDisplay');
     let trItemDisplay = document.querySelectorAll('#itemRowDisplay')
 
-    Object.keys(edit).forEach((item) => {
+    Object.keys(edit).forEach((item) =>  {
         edit[item].addEventListener('click', (e) => {
             let gameTitleInput = [...document.querySelectorAll(`#gameTitle`)];
             let gamePriceInput = [...document.querySelectorAll('#gamePriceInp')];
@@ -94,9 +95,11 @@ let displayTableContent = () => {
           let index = item
           console.log(item)
           if(del[item].id == myData[item].id){
-            // myData.splice(index, 1)
+            myData.splice(index, 1)
             localStorage.setItem('myDataStore' ,JSON.stringify(myData))
-            // location.reload()
+            location.reload()
+
+
           }
           else{
             return alert('Not Found')
